@@ -1,0 +1,30 @@
+.box{
+  display: flex;
+      align-items: center;
+}
+.box-center{
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-between{
+display: flex;
+    justify-content: space-between;
+}
+/* 自动换行 */
+.flex-right {
+  justify-content:  flex-end ;
+}
+
+.flex-flow{
+  display: flex;
+  flex-flow:row wrap;
+}
+.flex{
+  flex: 1;
+}
